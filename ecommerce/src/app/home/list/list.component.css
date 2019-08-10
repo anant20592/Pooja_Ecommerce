@@ -1,0 +1,12 @@
+table {
+    width: 100%;
+  }
+.imageClass{
+    height: 74px;
+    width: 70px;
+    position:absolute;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}

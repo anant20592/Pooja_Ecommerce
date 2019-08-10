@@ -1,0 +1,13 @@
+<p>
+  Product-detail
+</p>
+<h4>{{productDetail.name}} <span>
+    <button mat-icon-button color="warn">
+      <mat-icon aria-label="Example icon-button with a heart icon" (click)="addToWishlist()">favorite</mat-icon>
+    </button>
+  </span></h4>
+<h5>Price :<span>{{productDetail.price}}</span></h5>
+<h5>Review :<span>{{productDetail.review}}</span></h5>
+<h5>Rate :<span>{{productDetail.rate}}</span></h5>
+<br>
+<button mat-raised-button color="primary" (click)="addToCart()">Add to Cart</button>
